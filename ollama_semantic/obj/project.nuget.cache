@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZdO7xWKHkwE=",
+  "dgSpecHash": "H8xpAOcWhPY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_semantic\\ollama_semantic.csproj",
+  "projectFilePath": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_semantic\\ollama_semantic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\boatc\\.nuget\\packages\\azure.ai.openai\\2.1.0-beta.2\\azure.ai.openai.2.1.0-beta.2.nupkg.sha512",
     "C:\\Users\\boatc\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",

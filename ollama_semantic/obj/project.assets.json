@@ -1313,14 +1313,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_semantic\\ollama_semantic.csproj",
+      "projectUniqueName": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_semantic\\ollama_semantic.csproj",
       "projectName": "ollama_semantic",
-      "projectPath": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_semantic\\ollama_semantic.csproj",
+      "projectPath": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_semantic\\ollama_semantic.csproj",
       "packagesPath": "C:\\Users\\boatc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_semantic\\obj\\",
+      "outputPath": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_semantic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_semantic\\NuGet.Config",
+        "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_semantic\\NuGet.Config",
         "C:\\Users\\boatc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
