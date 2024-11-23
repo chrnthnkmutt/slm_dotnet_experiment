@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\ollama_autogen.csproj": {}
+    "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\ollama_autogen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\ollama_autogen.csproj": {
+    "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\ollama_autogen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\ollama_autogen.csproj",
+        "projectUniqueName": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\ollama_autogen.csproj",
         "projectName": "ollama_autogen",
-        "projectPath": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\ollama_autogen.csproj",
+        "projectPath": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\ollama_autogen.csproj",
         "packagesPath": "C:\\Users\\boatc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\obj\\",
+        "outputPath": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\NuGet.Config",
+          "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\NuGet.Config",
           "C:\\Users\\boatc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [

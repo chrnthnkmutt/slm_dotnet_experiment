@@ -18,7 +18,7 @@ public class Chat_With_LLaVA
         var ollamaAgent = new OllamaAgent(
             httpClient: httpClient,
             name: "ollama",
-            modelName: "llava-phi3",
+            modelName: "llava-phi3:latest",
             systemMessage: "You are a helpful AI assistant")
             .RegisterMessageConnector()
             .RegisterPrintMessage();

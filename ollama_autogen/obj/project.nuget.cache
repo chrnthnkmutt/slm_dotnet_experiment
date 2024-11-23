@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5dQffHzdTU=",
+  "dgSpecHash": "OVp8U5zo9no=",
   "success": true,
-  "projectFilePath": "C:\\Users\\boatc\\OneDrive\\Desktop\\ollama_autogen\\ollama_autogen.csproj",
+  "projectFilePath": "C:\\Users\\boatc\\OneDrive\\Documents\\GitHub\\BoatSLM_cs_experiment\\ollama_autogen\\ollama_autogen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\boatc\\.nuget\\packages\\autogen\\0.2.1\\autogen.0.2.1.nupkg.sha512",
     "C:\\Users\\boatc\\.nuget\\packages\\autogen.anthropic\\0.2.1\\autogen.anthropic.0.2.1.nupkg.sha512",
