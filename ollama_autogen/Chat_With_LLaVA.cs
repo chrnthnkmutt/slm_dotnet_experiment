@@ -18,15 +18,15 @@ public class Chat_With_LLaVA
         var ollamaAgent = new OllamaAgent(
             httpClient: httpClient,
             name: "ollama",
-            modelName: "llava:latest",
+            modelName: "llava-phi3",
             systemMessage: "You are a helpful AI assistant")
             .RegisterMessageConnector()
             .RegisterPrintMessage();
         #endregion Create_Ollama_Agent
 
         #region Send_Message
-        var image = Path.Combine("resource", "images", "background.png");
-        var binaryData = BinaryData.FromBytes(File.ReadAllBytes(image), "image/png");
+        var image = Path.Combine("images", "image.jpg");
+        var binaryData = BinaryData.FromBytes(File.ReadAllBytes(image), "image/jpg");
         var imageMessage = new ImageMessage(Role.User, binaryData);
         var textMessage = new TextMessage(Role.User, "what's in this image?");
         var reply = await ollamaAgent.SendAsync(chatHistory: [textMessage, imageMessage]);

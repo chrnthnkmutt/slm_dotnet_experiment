@@ -6,7 +6,7 @@ using Microsoft.SemanticKernel.ChatCompletion;
 #pragma warning disable SKEXP0070
 Kernel kernel = Kernel.CreateBuilder()
                     .AddOllamaChatCompletion(
-                        modelId: "phi3:mini",
+                        modelId: "hf.co/boatchrnthn/BoatLMPrototype_3B:latest",
                         endpoint: new Uri("http://localhost:11434"))
                     .Build();
 

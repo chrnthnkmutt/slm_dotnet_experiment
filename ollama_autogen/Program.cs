@@ -1,3 +1,3 @@
 ﻿using AutoGen.Ollama.Sample;
 
-await Chat_With_LLaMA.RunAsync();
+await Chat_With_LLaVA.RunAsync();
