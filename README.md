@@ -1,4 +1,4 @@
-# BoatSLM_cs_experiment
+# slm_dotnet_experiment
 
 This repository is used to experiment with Ollama and a custom small language model in the .NET framework. It is also used for demonstration purposes at the .NET Conference Thailand at Seven Peaks Software.
 
