@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ollama_semantic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68433c02b52d92f228b9702631e04ebe7d70e61a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a86ec9952f3de6068acbdbdd93b98127c2af2fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ollama_semantic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ollama_semantic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
