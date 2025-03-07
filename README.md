@@ -68,7 +68,7 @@ README.md
    ```sh
    dotnet restore
    ```
-* For those who would like to create project with `dotnet new console`, please remind yourself to run `nuget new cofig` first before installing AutoGen or other packages.
+* For those who would like to create project with `dotnet new console`, please remind yourself to run `dotnet new nugetconfig` first on each folder before installing AutoGen or other packages.
 
 ## Usage
 
