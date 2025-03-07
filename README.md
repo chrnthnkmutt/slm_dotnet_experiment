@@ -1,16 +1,28 @@
 # slm_dotnet_experiment
 
-This repository is used to experiment with Ollama and a custom small language model in the .NET framework. It is also used for demonstration purposes at the .NET Conference Thailand at Seven Peaks Software.
+Created By Charunthon Limseelo - Microsoft Learn Student Ambassador, Thailand
+For more information about the author, please click to his [official website.](https://chrnthnkmutt.github.io)
 
 ## Project Purpose
 
-The purpose of this project is to demonstrate the integration of Ollama with a custom small language model in the .NET framework. The project includes examples of how to set up and use the language model, as well as how to run the provided code.
+The purpose of this project is to demonstrate the integration of Ollama or LM Studio with a custom small language models, small reasoning models, or any local models in the .NET framework for making AI agents. The project includes examples of how to set up and use the language model, as well as how to run the provided code. In meantime, this repository is been using for the demonstration in many events as follows:
+
+- .NET Conf Thailand 2024, on November 23th 2024 at Seven Peaks Software
+- .NET Developer Day 2025, on March 8th 2025 at Agoda Thailand, centralwOrld offices
+- Operation on Local AI Agent: Test Drive on Deepseek-R1 Reasoning and AutoGen with .NET and Ollama ([Watch the video here](https://chrnthnkmutt.github.io/talks/deepseekr1))
+
+The updated slide of presenting at the event will be published and download it within this repository.
 
 ## Project Structure
 
 The project is structured as follows:
 
 ```
+Autogen_LMS/
+  ├── Autogen_MLS.csproj
+  ├── Autogen_MLS.sln
+  ├── nuget.config
+  └── Program.cs
 ollama_autogen/
   ├── Chat_With_LLaMA.cs
   ├── Chat_With_LLaVA.cs
@@ -26,19 +38,15 @@ ollama_semantic/
 README.md
 ```
 
-### File Descriptions
+### Folder's Descriptions
 
-- `ollama_autogen/Chat_With_LLaMA.cs`: Example code for creating an Ollama agent and sending a message.
-- `ollama_autogen/Chat_With_LLaVA.cs`: Example code for creating an Ollama agent with multi-modal message support.
-- `ollama_autogen/nuget.config`: NuGet configuration file for the `ollama_autogen` project.
-- `ollama_autogen/ollama_autogen.csproj`: Project file for the `ollama_autogen` project.
-- `ollama_autogen/ollama_autogen.sln`: Solution file for the `ollama_autogen` project.
-- `ollama_autogen/Program.cs`: Entry point for the `ollama_autogen` project.
-- `ollama_semantic/nuget.config`: NuGet configuration file for the `ollama_semantic` project.
-- `ollama_semantic/ollama_semantic.csproj`: Project file for the `ollama_semantic` project.
-- `ollama_semantic/ollama_semantic.sln`: Solution file for the `ollama_semantic` project.
-- `ollama_semantic/Program.cs`: Entry point for the `ollama_semantic` project.
-- `README.md`: This file.
+1. AutoGen_LMS: This folder is using for making the experiment of using language model with the LM Studio. For loading or calling the model, we do not need to change the model name in the Program.cs file. However, for LM Studio, we are using on LMS CLI for loading model instead and deploy from CLI or UI app to another project, also with this folder.
+
+2. Ollama_Autogen: This folder is using for making the experiment using language model with OLlama, along with making the agents with AutoGen. However, you can select between text agent or multimodal (image) agent to run. Before running the program, please make sure that your local Ollama server is open by checking with `ollama serve`.
+
+3. Ollama_Semantic: This folder is created for running with using Semantic Kernel, and the setting of Ollama is same as the above one.
+
+*For those are using in Ollama folders, please remind to yourself that you might need to change the model name before running the program*
 
 ## Setup Instructions
 
@@ -46,54 +54,32 @@ README.md
 
 - .NET SDK 9.0 or later
 - NuGet package manager
+- AutoGen Packages of Each Folder (If it is Ollama, install AutoGen.Ollama. If it is LM Studio, install AutoGen.LMStudio. Both of them requires version number - please check it in the NuGet website.)
 
 ### Installation
 
 1. Clone the repository:
    ```sh
    git clone https://github.com/chrnthnkmutt/BoatSLM_cs_experiment.git
-   cd BoatSLM_cs_experiment
+   cd slm_dotnet_experiment
    ```
 
 2. Restore the NuGet packages:
    ```sh
    dotnet restore
    ```
+* For those who would like to create project with `dotnet new console`, please remind yourself to run `nuget new cofig` first before installing AutoGen or other packages.
 
 ## Usage
 
-### Running the Code
+1. Get into the project:
+  ```sh
+  cd <project folder>
+  ```
 
-To run the `ollama_autogen` project:
-```sh
-cd ollama_autogen
-dotnet run
-```
+2. Run the program:
+  ```sh
+  dotnet run Program.cs
+  ```
 
-To run the `ollama_semantic` project:
-```sh
-cd ollama_semantic
-dotnet run
-```
-
-### Examples
-
-#### Example 1: Chat with LLaMA
-
-The `Chat_With_LLaMA.cs` file contains an example of how to create an Ollama agent and send a message to it. The agent will respond with a piece of C# code to calculate the 100th Fibonacci number.
-
-#### Example 2: Chat with LLaVA
-
-The `Chat_With_LLaVA.cs` file contains an example of how to create an Ollama agent with multi-modal message support. The agent can process both text and image messages and respond accordingly.
-
-## Additional Configuration
-
-If you need to change the base address of the Ollama agent, you can modify the `BaseAddress` property in the `Chat_With_LLaMA.cs` and `Chat_With_LLaVA.cs` files.
-
-For example:
-```csharp
-using var httpClient = new HttpClient()
-{
-    BaseAddress = new Uri("http://localhost:11434"),
-};
-```
+Have fun with developing AI apps!!
